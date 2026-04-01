@@ -91,25 +91,7 @@ Você será apresentado a um menu interativo.
 - **3 - Concluir**: Remove uma tarefa pelo seu índice
 - **4 - Sair**: Encerra o cliente
 
-## Exemplos de uso
-
-Exemplo 1:
-1. Inicie o servidor em um terminal
-2. Abra outro terminal e inicie o cliente
-3. Selecione opção 1 e adicione tarefas:
-   - "Fazer compras"
-   - "Estudar Java"
-   - "Fazer exercício"
-4. Selecione opção 2 para visualizar:
-   ```
-   [0] Fazer compras
-   [1] Estudar Java
-   [2] Fazer exercício
-   ```
-5. Selecione opção 3 e escolha um índice (ex: 1) para marcar "Estudar Java" como concluída
-6. Visualize novamente para confirmar a remoção
-
-Exemplo 2:
+## Exemplo de uso
 
 <img width="900" height="150" alt="image" src="https://github.com/user-attachments/assets/70623b41-3980-4083-a67e-ec7b33885ee8" />
 <img width="900" height="237" alt="image" src="https://github.com/user-attachments/assets/4e3d8a69-b1a1-4820-b0b2-c56901364817" />
