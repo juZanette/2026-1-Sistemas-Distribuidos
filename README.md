@@ -91,19 +91,9 @@ Você será apresentado a um menu interativo.
 - **3 - Concluir**: Remove uma tarefa pelo seu índice
 - **4 - Sair**: Encerra o cliente
 
-## Funcionalidades Implementadas
+## Exemplos de uso
 
-✅ Interface remota com 3 métodos  
-✅ Servidor que gerencia ArrayList de tarefas  
-✅ Cliente com menu interativo  
-✅ Registro RMI automático na porta 1099  
-✅ Tratamento de exceções (RemoteException, IndexOutOfBoundsException)  
-✅ Validação de entrada do usuário  
-✅ Implementação thread-safe com UnicastRemoteObject  
-✅ Log de operações no servidor  
-
-## Caso de Uso Exemplo
-
+Exemplo 1:
 1. Inicie o servidor em um terminal
 2. Abra outro terminal e inicie o cliente
 3. Selecione opção 1 e adicione tarefas:
@@ -119,19 +109,21 @@ Você será apresentado a um menu interativo.
 5. Selecione opção 3 e escolha um índice (ex: 1) para marcar "Estudar Java" como concluída
 6. Visualize novamente para confirmar a remoção
 
-## Requisitos
-- Java 8 ou superior
-- rmiregistry (geralmente incluído no JDK)
+Exemplo 2:
 
-## Tecnologias
-- Java RMI (Remote Method Invocation)
-- java.rmi.Remote
-- java.rmi.server.UniactRemoteObject
-- java.rmi.registry
+<img width="900" height="150" alt="image" src="https://github.com/user-attachments/assets/70623b41-3980-4083-a67e-ec7b33885ee8" />
+<img width="900" height="237" alt="image" src="https://github.com/user-attachments/assets/4e3d8a69-b1a1-4820-b0b2-c56901364817" />
+<img width="900" height="338" alt="image" src="https://github.com/user-attachments/assets/39127131-c10c-4db3-8aeb-2a339da58c2a" />
+<img width="733" height="488" alt="image" src="https://github.com/user-attachments/assets/cd1104eb-0668-4b77-8d69-904961e5da84" />
+<img width="900" height="541" alt="image" src="https://github.com/user-attachments/assets/8a4e76de-ad19-4620-afef-f88379cbce49" />
+<img width="900" height="564" alt="image" src="https://github.com/user-attachments/assets/5dd2d150-88d1-47aa-8537-426db52bd1f7" />
+<img width="900" height="617" alt="image" src="https://github.com/user-attachments/assets/15f09b06-d141-4065-9755-89b3d79d4546" />
+<img width="900" height="593" alt="image" src="https://github.com/user-attachments/assets/d50801fa-e1b2-4a7b-a763-83758b0a28df" />
+<img width="900" height="579" alt="image" src="https://github.com/user-attachments/assets/a5b7fe48-b5e1-4305-857a-4ea1b735441e" />
 
-## Notas de Implementação
 
-- O projeto mantém foco em um cliente único como indicado no enunciado
-- A sincronização é realizada automaticamente pelo UniactRemoteObject
-- As tarefas são armazenadas em memória durante a execução do servidor
-- O registro RMI usa a porta padrão 1099
+
+
+
+
+   
