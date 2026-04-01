@@ -1,5 +1,7 @@
 # M3 - Gerenciador Remoto de Lista de Tarefas - Java RMI
 
+Link para o repositório no Github: https://github.com/juZanette/2026-1-Sistemas-Distribuidos
+
 ## Descrição
 Implementação de um aplicativo distribuído que permite gerenciar uma lista de tarefas através de chamadas remotas via Java RMI (Remote Method Invocation).
 
