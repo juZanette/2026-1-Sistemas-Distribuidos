@@ -1,4 +1,4 @@
-# Gerenciador Remoto de Lista de Tarefas - Java RMI
+# M3 - Gerenciador Remoto de Lista de Tarefas - Java RMI
 
 ## Descrição
 Implementação de um aplicativo distribuído que permite gerenciar uma lista de tarefas através de chamadas remotas via Java RMI (Remote Method Invocation).
